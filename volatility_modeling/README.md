@@ -26,7 +26,7 @@ We sourced daily and monthly data for BlackRock ETFs and the S&P 500 ETF (IVV) f
 ### Volatility Prediction Models
 
 1. **Model 1**:
-   $$\sigma^{ETF}_{t} = \alpha^{ETF} + \beta^{ETF}\sigma^{S\&P500}_{t} + \varepsilon^{ETF}_{t}$$
+   $\sigma^{ETF}_{t} = \alpha^{ETF} + \beta^{ETF}\sigma^{S\&P500}_{t} + \varepsilon^{ETF}_{t}$
 
 2. **Model 2**:
    $$\sigma^{ETF}_{t} = \phi^{ETF}_{0} + \phi^{ETF}_{1}\sigma^{S\&P500}_{t} + \phi^{ETF}_{2}\sigma^{S\&P500}_{t-1} + \phi^{ETF}_{3}\sigma^{S\&P500}_{t-2} + \varepsilon^{ETF}_{t}$$
