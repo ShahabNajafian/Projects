@@ -17,7 +17,7 @@ The dataset consists of high-frequency intra-day trading data, tracked over mult
 
 ## Installation Instructions
 To run the notebook, you need Python and the following libraries:
-- pandas, numpy, tabulate, datetime, scikit-learn, tensorflow, keras, matplotlib, seaborn
+- pandas, numpy, datetime, scikit-learn, tensorflow, keras, matplotlib, seaborn
 
 ## Methodology
 
