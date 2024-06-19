@@ -1,3 +1,7 @@
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 # Volatility Modeling and Portfolio Construction of BlackRock ETFs
 
 ## Introduction
@@ -26,24 +30,24 @@ We sourced daily and monthly data for BlackRock ETFs and the S&P 500 ETF (IVV) f
 ### Volatility Prediction Models
 
 1. **Model 1**:
-![Model 1](https://latex.codecogs.com/png.latex?\sigma^{ETF}_{t}=\alpha^{ETF}+\beta^{ETF}\sigma^{S\&P500}_{t}+\varepsilon^{ETF}_{t})
+$$\sigma^{ETF}_{t} = \alpha^{ETF} + \beta^{ETF}\sigma^{S\&P500}_{t} + \varepsilon^{ETF}_{t}$$
 
 2. **Model 2**:
-![Model 2](https://latex.codecogs.com/png.latex?\sigma^{ETF}_{t}=\phi^{ETF}_{0}+\phi^{ETF}_{1}\sigma^{S\&P500}_{t}+\phi^{ETF}_{2}\sigma^{S\&P500}_{t-1}+\phi^{ETF}_{3}\sigma^{S\&P500}_{t-2}+\varepsilon^{ETF}_{t})
+$$\sigma^{ETF}_{t} = \phi^{ETF}_{0} + \phi^{ETF}_{1}\sigma^{S\&P500}_{t} + \phi^{ETF}_{2}\sigma^{S\&P500}_{t-1} + \phi^{ETF}_{3}\sigma^{S\&P500}_{t-2} + \varepsilon^{ETF}_{t}$$
 
 3. **Model 3**:
-![Model 3](https://latex.codecogs.com/png.latex?\sigma'^{ETF}_{t}=\gamma^{ETF}_{0}+\gamma^{ETF}_{1}\hat{\sigma}^{ETF}_{t}+\varepsilon^{ETF}_{t})
+$$\sigma'^{ETF}_{t} = \gamma^{ETF}_{0} + \gamma^{ETF}_{1}\hat{\sigma}^{ETF}_{t} + \varepsilon^{ETF}_{t}$$ 
 
-where
+where 
 
-![Equation](https://latex.codecogs.com/png.latex?\hat{\sigma}^{ETF}_{t}=\hat{\phi}^{ETF}_{0}+\hat{\phi}^{ETF}_{1}\sigma^{S\&P500}_{t}+\hat{\phi}^{ETF}_{2}\sigma^{S\&P500}_{t-1}+\hat{\phi}^{ETF}_{3}\sigma^{S\&P500}_{t-2})
+$$\hat{\sigma}^{ETF}_{t} = \hat{\phi}^{ETF}_{0} + \hat{\phi}^{ETF}_{1}\sigma^{S\&P500}_{t} + \hat{\phi}^{ETF}_{2}\sigma^{S\&P500}_{t-1} + \hat{\phi}^{ETF}_{3}\sigma^{S\&P500}_{t-2}$$
 
 4. **Model 4**:
-![Model 4](https://latex.codecogs.com/png.latex?\sigma'^{ETF}_{t}=\gamma^{ETF}_{0}+\gamma^{ETF}_{1}\hat{\sigma}^{ETF}_{t-1}+\gamma^{ETF}_{2}\hat{\sigma}^{ETF}_{t-2}+\varepsilon^{ETF}_{t})
+$$\sigma'^{ETF}_{t} = \gamma^{ETF}_{0} + \gamma^{ETF}_{1}\hat{\sigma}^{ETF}_{t-1} + \gamma^{ETF}_{2}\hat{\sigma}^{ETF}_{t-2} + \varepsilon^{ETF}_{t}$$ 
 
-where
+where 
 
-![Equation](https://latex.codecogs.com/png.latex?\hat{\sigma}^{ETF}_{t}=\hat{\phi}^{ETF}_{0}+\hat{\phi}^{ETF}_{1}\sigma^{S\&P500}_{t}+\hat{\phi}^{ETF}_{2}\sigma^{S\&P500}_{t-1}+\hat{\phi}^{ETF}_{3}\sigma^{S\&P500}_{t-2})
+$$\hat{\sigma}^{ETF}_{t} = \hat{\phi}^{ETF}_{0} + \hat{\phi}^{ETF}_{1}\sigma^{S\&P500}_{t} + \hat{\phi}^{ETF}_{2}\sigma^{S\&P500}_{t-1} + \hat{\phi}^{ETF}_{3}\sigma^{S\&P500}_{t-2}$$
 
 ### Portfolio Construction
 
