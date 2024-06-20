@@ -62,7 +62,3 @@ Extract and streamline key financial tables to highlight critical metrics such a
 ## Summary and Conclusion
 
 Our analysis of BlackRock Inc.'s 10-K filings for 2022 and 2023 reveals a cautiously optimistic tone, emphasizing client-centric services, regulatory adherence, and risk management. The findings highlight BlackRock's strategic agility and financial prudence, demonstrating the value of NLP in extracting actionable insights from complex financial documents.
-
----
-
-This concise README provides a clear and structured overview of your NLP project, making it easier for readers to understand the scope, methodology, and key findings without overwhelming them with too much detail.
