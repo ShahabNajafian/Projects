@@ -34,6 +34,7 @@ To run the notebook, you need Python and the following libraries:
 ![Model 1](https://latex.codecogs.com/svg.image?{\color{Red}\sigma^{ETF}_{t}=\alpha^{ETF}&plus;\beta^{ETF}\sigma^{SP500}_{t}&plus;\varepsilon^{ETF}_{t}})
 
 2. **Model 2:**
+
 ![Model 2](https://latex.codecogs.com/svg.image?{\color{Red}\sigma^{ETF}_{t}=\phi^{ETF}_{0}&plus;\phi^{ETF}_{1}\sigma^{SP500}_{t}&plus;\phi^{ETF}_{2}\sigma^{SP500}_{t-1}&plus;\phi^{ETF}_{3}\sigma^{SP500}_{t-2}&plus;\varepsilon^{ETF}_{t}})
 
 3. **Model 3:**
