@@ -46,7 +46,14 @@ Note: GridSearchCV was used for tuning the hyperparameters of RandomForestClassi
 
 Note: GridSearchCV was used for tuning the hyperparameters of RandomForestRegressor and GradientBoostingRegressor.
 
-## Key Findings
+Note: The project evaluates the performance of multiple models for both classification and regression tasks. Key plots and visualizations include:
+- Precision-Recall curves
+- ROC curves
+- Confusion matrices
+- Feature importance charts
+- Error distribution plots
+  
+## Results
 
 ### Classification
 
@@ -67,14 +74,6 @@ Note: GridSearchCV was used for tuning the hyperparameters of RandomForestRegres
 ## Selected Models
 - **For classification**, LSTM was chosen due to its superior F1 score.
 - **For regression**, Gradient Boosting Regressor (GBR) was selected for its lower MAE compared to the other models.
-
-## Results
-The project evaluates the performance of multiple models for both classification and regression tasks. Key plots and visualizations include:
-- Precision-Recall curves
-- ROC curves
-- Confusion matrices
-- Feature importance charts
-- Error distribution plots
 
 ## Conclusion
 Our analysis demonstrates the effectiveness of machine learning and deep learning models in predicting asset returns using high-frequency trading data. Despite computational constraints, the chosen models (LSTM for classification and GBR for regression) provided satisfactory performance. The results highlight the importance of feature selection and model choice in financial prediction tasks.
