@@ -1,6 +1,6 @@
 # NLP Analysis of BlackRock Inc.'s 10-K Filings
 
-## Introduction
+## Overview
 
 This project analyzes BlackRock Inc.'s 10-K filings for fiscal years 2022 and 2023 using Natural Language Processing (NLP) techniques. The aim is to extract, process, and analyze textual data to uncover insights into the company's performance, risks, and strategic outlook.
 
