@@ -31,7 +31,7 @@ To run the notebook, you need Python and the following libraries:
 ### Volatility Prediction Models
 
 1. **Model 1**:
-![Model 1](https://latex.codecogs.com/svg.image?\bg{white}\sigma^{ETF}_{t}=\alpha^{ETF}&plus;\beta^{ETF}\sigma^{SP500}_{t}&plus;\varepsilon^{ETF}_{t})
+![Model 1](https://latex.codecogs.com/svg.image?{\color{Red}\sigma^{ETF}_{t}=\alpha^{ETF}&plus;\beta^{ETF}\sigma^{SP500}_{t}&plus;\varepsilon^{ETF}_{t}})
 
 2. **Model 2**:
 $$\sigma^{ETF}_{t} = \phi^{ETF}_{0} + \phi^{ETF}_{1}\sigma^{S\&P500}_{t} + \phi^{ETF}_{2}\sigma^{S\&P500}_{t-1} + \phi^{ETF}_{3}\sigma^{S\&P500}_{t-2} + \varepsilon^{ETF}_{t}$$
